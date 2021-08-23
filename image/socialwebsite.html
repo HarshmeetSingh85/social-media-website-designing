@@ -1,0 +1,350 @@
+<html>
+
+<head>
+    <title>Social Website- MeetSpot</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="logo1.png" class="logo">
+            <ul>
+                <li><img src="notification.png"> </li>
+                <li><img src="inbox.png"> </li>
+                <li><img src="video.png"> </li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="iprofilepic.jpeg">
+            </div>
+        </div>
+
+        <!---------------Settings-menu--------------->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="iprofilepic.jpeg">
+                    <div>
+                        <p>Harshmeet Singh</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="arrow.png" width="10px"></a>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <!----------left-sidebar---------->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="news.png">Latest News</a>
+                <a href="#"><img src="friends.png">Friends</a>
+                <a href="#"><img src="group.png">Group</a>
+                <a href="#"><img src="marketplace.png">Marketplace</a>
+                <a href="#"><img src="watch.png">Watch</a>
+                <a href="#">See More</a>
+            </div>
+
+            <div class="shortcut-links">
+                <p>Your shortcuts</p>
+                <a href="#"><img src="shortcut-1.png">Web Developers</a>
+                <a href="#"><img src="shortcut-2.png">Web Design Course</a>
+                <a href="#"><img src="shortcut-3.png">Full Stack Development</a>
+                <a href="#"><img src="shortcut-4.png">Website Experts</a>
+            </div>
+        </div>
+
+        <!----------main-content---------->
+        <div class="main-content">
+
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="jagsir.jpg">
+                    <p>Jagsir</p>
+                </div>
+                <div class="story story3">
+                    <img src="jagjeet.jpg">
+                    <p>Jagjeet</p>
+                </div>
+                <div class="story story4">
+                    <img src="amrit.jpg">
+                    <p>Amrit</p>
+                </div>
+                <div class="story story5">
+                    <img src="pankaj.jpg">
+                    <p>Pankaj</p>
+                </div>
+            </div>
+
+            <div class="write-post-conatiner">
+                <div class="user-profile">
+                    <img src="iprofilepic.jpeg">
+                    <div>
+                        <p>Harshmeet Singh</p>
+                        <small>Public<i class="fas fa-caret-down"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind,Harsh?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="live-video.png">Live Video</a>
+                        <a href="#"><img src="photo.png">Photo/Video</a>
+                        <a href="#"><img src="feeling.png">Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="iprofilepic.jpeg">
+                        <div>
+                            <p>Harshmeet Singh</p>
+                            <span>July 25 2021,1:40pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <img src="feed-image-1.png" class="post-img">
+                <p class="post-text">Contact Me for Website Development and UI Designs.<a href="#">#HarshmeetSingh</a>
+                    <a href="#">#portfolio</a>
+                </p>
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="like-blue.png">120</div>
+                        <div><img src="comments.png">45</div>
+                        <div><img src="share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="iprofilepic.jpeg"> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="jagjeet.jpg">
+                        <div>
+                            <p>Jagjeet Singh</p>
+                            <span>July 24 2021,3:52pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <img src="jagjeet.jpg" class="post-img">
+                <p class="post-text">Chilling in Canada<a href="#">#JagjeetSingh</a></p>
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="like.png">106</div>
+                        <div><img src="comments.png">24</div>
+                        <div><img src="share.png">2</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="jagjeet.jpg  "> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="ajaypal.jpg">
+                        <div>
+                            <p>Ajaypal Singh</p>
+                            <span>July 24 2021,2:40pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <img src="ajaypal.jpg" class="post-img">
+                <p class="post-text">At College</p>
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="like.png">89</div>
+                        <div><img src="comments.png">15</div>
+                        <div><img src="share.png">1</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="ajaypal.jpg"> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="pankaj.jpg">
+                        <div>
+                            <p>Pankaj Bawa</p>
+                            <span>July 23 2021,4:31pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <img src="pankaj.jpg" class="post-img">
+                <p class="post-text">Stay Happy :)</p>
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="like.png">157</div>
+                        <div><img src="comments.png">59</div>
+                        <div><img src="share.png">38</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="pankaj.jpg"> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="amrit.jpg">
+                        <div>
+                            <p>Amrit Lakhu</p>
+                            <span>July 22 2021,1:24pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+                <img src="amrit.jpg" class="post-img">
+                <p class="post-text">Blessed</p>
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="like.png">59</div>
+                        <div><img src="comments.png">7</div>
+                        <div><img src="share.png">4</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="amrit.jpg"> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <button type="button" class="load-more-btn">Load More</button>
+
+        </div>
+
+        <!----------right-tsidebar---------->
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>August</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>Punjabi Bagh Park</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>25</h3>
+                    <span>September</span>
+                </div>
+                <div class="right-event">
+                    <h4>Learn Punjabi</h4>
+                    <p><i class="fas fa-map-marker-alt"></i>Lal Bagh School</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <hr>
+
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="advertisement.png" class="sidebar-ads">
+            <hr>
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="pankaj.jpg">
+                </div>
+                <p>Pankaj</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="jagjeet.jpg">
+                </div>
+                <p>Jagjeet</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="amrit.jpg">
+                </div>
+                <p>Amrit</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2021 - HarshmeetSingh</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

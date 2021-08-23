@@ -1,0 +1,318 @@
+<html>
+
+<head>
+    <title>Profile Page - MeetSpot</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="logo1.png" class="logo">
+            <ul>
+                <li><img src="notification.png"> </li>
+                <li><img src="inbox.png"> </li>
+                <li><img src="video.png"> </li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="iprofilepic.jpeg">
+            </div>
+        </div>
+
+        <!---------------Settings-menu--------------->
+        <div class="settings-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="iprofilepic.jpeg">
+                    <div>
+                        <p>Harshmeet Singh</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="arrow.png" width="10px"></a>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+
+    <!--  --------Profile Page---------  -->
+    <div class="profile-container">
+        <img src="cover.jpg" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="iprofilepic.jpeg" class="pd-img">
+                    <div>
+                        <h3>Harshmeet Singh</h3>
+                        <p>120 Friends</p>
+                        <img src="amrit.jpg">
+                        <img src="jagjeet.jpg">
+                        <img src="pankaj.jpg">
+                        <img src="ajaypal.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+                <a href="#"><img src="more.png"></a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Believe in yourself and you can do unbeleivable things. <img
+                            src="feeling.png"></p>
+                    <hr>
+                    <ul>
+                        <li><img src="profile-job.png"> Designer @ VJ Ltd.</li>
+                        <li><img src="profile-study.png"> Studied @ Pbi Uni,Patiala</li>
+                        <li><img src="profile-study.png"> Went to Winnipeg Canada</li>
+                        <li><img src="profile-home.png">Lives in Patiala,Punjab</li>
+                        <li><img src="profile-location.png">From Patiala,Punjab</li>
+                    </ul>
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="#">All Photos</a>
+                    </div>
+
+                    <div class="photo-box">
+                        <div><img src="me.jpg"></div>
+                        <div><img src="me1.jpg"></div>
+                        <div><img src="me2.jpg"></div>
+                        <div><img src="me3.jpg"></div>
+                        <div><img src="keniv.jpg"></div>
+                        <div><img src="ajaypal.jpg"></div>
+                    </div>
+
+                </div>
+
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Friends</h3>
+                        <a href="#">All Friends</a>
+                    </div>
+                    <p>120 (10 Mutual)</p>
+                    <div class="friends-box">
+                        <div><img src="jagsir.jpg"><p>Jagsir Singh</p></div>
+                        <div><img src="pankaj.jpg"><p>Pankaj Bawa</p></div>
+                        <div><img src="amrit.jpg"><p>Amrit Lakhu</p></div>
+                        <div><img src="jagjeet.jpg"><p>Jagjeet Singh</p></div>
+                        <div><img src="manu.jpg"><p>Manu Sharma</p></div>
+                        <div><img src="taran.jpg"><p>Tarandeep S</p></div>
+                        <div><img src="harinder.jpg"><p>Harinder Singh</p></div>
+                        <div><img src="prerit.jpg"><p>Prerit Bansal</p></div>
+                        <div><img src="mohit.jpg"><p>Mohit Kumar</p></div>                        
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="post-col">
+
+                <div class="write-post-conatiner">
+                    <div class="user-profile">
+                        <img src="iprofilepic.jpeg">
+                        <div>
+                            <p>Harshmeet Singh</p>
+                            <small>Public<i class="fas fa-caret-down"></i></small>
+                        </div>
+                    </div>
+
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What's on your mind,Harsh?"></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="live-video.png">Live Video</a>
+                            <a href="#"><img src="photo.png">Photo/Video</a>
+                            <a href="#"><img src="feeling.png">Feeling/Activity</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="iprofilepic.jpeg">
+                            <div>
+                                <p>Harshmeet Singh</p>
+                                <span>July 25 2021,1:40pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <img src="feed-image-1.png" class="post-img">
+                    <p class="post-text">Contact Me for Website Development and UI Designs.<a
+                            href="#">#HarshmeetSingh</a>
+                        <a href="#">#portfolio</a>
+                    </p>
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="like-blue.png">120</div>
+                            <div><img src="comments.png">45</div>
+                            <div><img src="share.png">20</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="iprofilepic.jpeg"> <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="iprofilepic.jpeg">
+                            <div>
+                                <p>Harshmeet Singh</p>
+                                <span>July 24 2021,3:52pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <img src="meet1.jpeg" class="post-img">
+                    <p class="post-text">Happy:)<a href="#">#HarshmeetSingh</a></p>
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="like-blue.png">106</div>
+                            <div><img src="comments.png">24</div>
+                            <div><img src="share.png">2</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="meet1.jpeg"> <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="iprofilepic.jpeg">
+                            <div>
+                                <p>Harshmeet Singh</p>
+                                <span>July 24 2021,2:40pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <img src="me1.jpg" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="like-blue.png">89</div>
+                            <div><img src="comments.png">15</div>
+                            <div><img src="share.png">1</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="me1.jpg"> <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="iprofilepic.jpeg">
+                            <div>
+                                <p>Harshmeet Singh</p>
+                                <span>July 23 2021,4:31pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <img src="me2.jpg" class="post-img">
+                    <p class="post-text">Childhood</p>
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="like-blue.png">157</div>
+                            <div><img src="comments.png">59</div>
+                            <div><img src="share.png">38</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="me2.jpg"> <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="iprofilepic.jpeg">
+                            <div>
+                                <p>Harshmeet Singh</p>
+                                <span>July 22 2021,1:24pm</span>
+                            </div>
+                        </div>
+                        <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                    </div>
+                    <img src="me3.jpg" class="post-img">
+
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="like-blue.png">59</div>
+                            <div><img src="comments.png">7</div>
+                            <div><img src="share.png">4</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="me3.jpg"> <i class="fas fa-caret-down"></i>
+                        </div>
+                    </div>
+                </div>
+                <button type="button">Load More</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2021 - HarshmeetSingh</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
